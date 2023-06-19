@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.womens{
+    /* margin: 0 100px; */
+}
+body{
+    margin: 0 100px;
+    background-color: #ffeae0;
+}
+.navli{
+    margin: 0 100px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.nav .logo h1{
+    font-size: 600;
+    font-family: sans-serif;
+    color: #000000;
+}
+.nav .logo b{
+    color: #ff511c;
+}
+.nav .logo b img{
+    width: 50px;
+    height: 70px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.nav ul .active::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: #ff511c;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+.headtop{
+    font-size: 50px;
+    color: crimson;
+    margin-left: 48%;
+    margin-bottom: 3%;
+}
+.que{
+    font-size: 70px;
+    margin-left: 20%;
+    color: #ff511c;
+}
+.jumpy{
+    font-size: 50px;
+    color: crimson;
+    margin-left: 45%;
+    margin-bottom: 5%; 
+}
+.jack{
+    font-size: 50px;
+    color: crimson;
+    margin-left: 45%;
+    margin-bottom: 5%  
+}
+.traki{
+    font-size: 50px;
+    color: crimson;
+    margin-left: 45%;
+    margin-bottom: 5%    
+}
+.Tops{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.top{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.top h2{
+    font-size: 24px;
+    color: blue;
+
+}
+.top p{
+    font-size: 20px;
+  line-height: 1.4;
+}
+.top img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.Dresses{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.Dress{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.Dress img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.Dress h2{
+    font-size: 24px;
+    color: blue;
+
+}
+.Dress p{
+    font-size: 20px;
+  line-height: 1.4;
+}
+.Jumpsuits{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.Jump{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.Jump img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.Jump h2{
+    font-size: 24px;
+    color: blue;
+}
+.Jump p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.Trousers{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.Trao{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.Trao img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.Trao h2{
+    font-size: 24px;
+    color: blue;
+}
+.Trao p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.Jackets{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.Jacko{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.Jacko img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.Jacko h2{
+    font-size: 24px;
+    color: blue;
+}
+.Trao p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.dresi{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.dresis{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.dresis img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.dresi h2{
+    font-size: 24px;
+    color: blue;
+}
+.dresi p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.head-dresi{
+    font-size: 50px;
+    color: crimson;
+    margin-left: 48%;
+    margin-top: 5%;   
+}
+.bamaman{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.maman{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);  
+}
+.maman img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;  
+}
+.maman h2{
+    font-size: 24px;
+    color: blue;
+}
+.maman p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.modesh{
+    font-size: 50px;
+    color: crimson;
+    margin-left: 38%;
+    margin-top: 5%;    
+}
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right,#ecb464);
+    color: #00093c;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.rowie{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.foo{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.foo:nth-child(2),.foo:nth-child(3){
+    flex-basis: 15%;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.foo1 h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #00093c;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color:#00093c;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #00093c;
+    margin-bottom: 50px;
+}
+form .bx{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #00093c;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .bx{
+    font-size: 16px;
+}
+.social-icons .bx{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background: #00093c;
+    margin-right: 15px;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #00093c;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+  .logo-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+  #grr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -10%;
+  }
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #00093c;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+#ten-logo{
+    width: 80px;
+    height: 80px;
+}
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+    .foo{
+        flex-basis: 100%;
+    
+    }
+    .foo:nth-child(2),.foo:nth-child(3){
+        flex-basis: 100%;
+    }
+}
+
+
+
+
+
+
+

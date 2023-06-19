@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.womens{
+    /* margin: 0 100px; */
+}
+body{
+    margin: 0 100px;
+    background-color: #ffeae0;
+}
+.navli{
+    margin: 0 100px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.nav .logo h1{
+    font-size: 600;
+    font-family: sans-serif;
+    color: #000000;
+}
+.nav .logo b{
+    color: #ff511c;
+}
+.nav .logo b img{
+    width: 50px;
+    height: 70px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.nav ul .active::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: #ff511c;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+
+
+.wraps{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.wrap{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.wrap h2{
+    font-size: 24px;
+    color: blue;
+
+}
+.wrap p{
+    font-size: 20px;
+  line-height: 1.4;
+}
+.wrap img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.stylelishb{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.stylish{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.stylish img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.stylish h2{
+    font-size: 24px;
+    color: blue;
+
+}
+.stylish p{
+    font-size: 20px;
+  line-height: 1.4;
+}
+.bijoux{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.biju{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.biju img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.biju h2{
+    font-size: 24px;
+    color: blue;
+}
+.biju p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.bangles{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.bango{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.bango img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.bango h2{
+    font-size: 24px;
+    color: blue;
+}
+.bango p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.mwaene{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.ene{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.ene img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.ene h2{
+    font-size: 24px;
+    color: blue;
+}
+.ene p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.featured{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.fea{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.fea img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.fea h2{
+    font-size: 24px;
+    color: blue;
+}
+.fea p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.Products{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.Product{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.Product img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.Product h2{
+    font-size: 24px;
+    color: blue;
+}
+.Product p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+
+
+
+
+
+
+
+
+
+

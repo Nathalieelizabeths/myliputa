@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.womens{
+    /* margin: 0 100px; */
+}
+body{
+    margin: 0 100px;
+    background-color: #ffeae0;
+}
+.navli{
+    margin: 0 100px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.nav .logo h1{
+    font-size: 600;
+    font-family: sans-serif;
+    color: #000000;
+}
+.nav .logo b{
+    color: #ff511c;
+}
+.nav .logo b img{
+    width: 50px;
+    height: 70px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.nav ul .active::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: #ff511c;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+
+
+.kid-girl{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.girl{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.girl h2{
+    font-size: 24px;
+    color: blue;
+
+}
+.girl p{
+    font-size: 20px;
+  line-height: 1.4;
+}
+.girl img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.kid-boy{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.boy{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.boy img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.boy h2{
+    font-size: 24px;
+    color: blue;
+
+}
+.boy p{
+    font-size: 20px;
+  line-height: 1.4;
+}
+.boyG{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.bg{
+    border: 2px solid black;
+    width: calc(100% / 4 - 20px);
+}
+.bg img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.bg h2{
+    font-size: 24px;
+    color: blue;
+}
+.bg p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+
