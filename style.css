@@ -3,6 +3,83 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* additional code for home page */
+.details {
+    /* background-color: #FFCCB3 */
+    background-color: #F7C1BB
+
+    ;
+    padding: 50px;
+  }
+  .tenge-logo{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content-left {
+    flex: 1;
+  }
+  
+  .info {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10 rgba(0,  0, 0.2);
+    border-radius: 10px;
+
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #Africa {
+    width: 20px;
+    height: 20px;
+   margin-left: 5px;
+  }
+  
+  .puta {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .content-right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  #damn {
+    width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  }
+  /* the end of that code */
 body{
     /* margin: 0 100px; */
     background-color: #ffeae0;
@@ -28,7 +105,7 @@ body{
     padding: 30px 0;
 }
 .nav .logo h1{
-    font-size: 600;
+    font-size: 36px;
     font-family: sans-serif;
     color: #000000;
 }
@@ -110,12 +187,17 @@ font-family: sans-serif;
     display: block;
     width: 100%;
 }
+
 .content .content-right img{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     position: relative;
     animation: bounce 2s infinite alternate;
+    overflow: hidden;
+    object-fit: cover;
 }
+
 .container2 {
     display: flex;
     flex-wrap: wrap;
@@ -139,12 +221,28 @@ font-family: sans-serif;
     margin-left: 45%;
     font-size: 60px;
 }
+
+   
 .img-box button{
     padding: 20px 23px;
     background-color: #ff511c;
     border-radius: 5px;
     border: none;
     cursor: pointer; 
+}
+.Gallery{
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 60px;
+    margin: 0 100px;
+}
+h2{
+    color: #000;
+    transition: color 0.3s ease;
+}
+h2:hover{
+    color: #ff0000;
+
 }
 .gallery{
     margin-left: 40%;
@@ -157,6 +255,7 @@ font-family: sans-serif;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-gap: 30px;
+    
 }
 .img-gallery img{
     width: 100%;
@@ -193,10 +292,14 @@ font-family: sans-serif;
     cursor: pointer;
     
 }
+/* .trendy{
+   margin: 0 100px;  
+}
 .trend{
     display: flex;
     margin: 0 100px;
     gap: 5%;
+
 }
 .desire{
     margin-left: 40%;
@@ -217,11 +320,75 @@ font-family: sans-serif;
 
 .trend2:hover {
     content: url("images/CARINE.jpg");
-}
+       
+    }
+
 
 .trend3:hover {
     content: url("images/ore1.jpg");
-}
+} */
+.trendy {
+    margin: 0 100px;
+  }
+  
+  .trend {
+    display: flex;
+    margin: 0 100px;
+    gap: 5%;
+  }
+  
+  .desire {
+    margin-left: 40%;
+    font-size: 50;
+    margin-top: 5%;
+  }
+  
+  .head-kara {
+    margin-left: 40%;
+    font-size: 50px;
+  }
+  
+  #mage1,
+  #mage2,
+  #mage3 {
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .trendee {
+    text-align: center;
+  }
+  
+  .trendee h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .trendee p {
+    font-size: 16px px}
+  
+  #mage1:hover {
+    content: url("images/mod11.jpg");
+  }
+  
+  #mage2:hover {
+    content: url("images/CARINE.jpg");
+  }
+  
+  #mage3:hover {
+    content: url("images/ore1.jpg");
+  }
+  
+  .trend1:hover,
+  .trend2:hover,
+  .trend3:hover {
+    transform: scale(1.05);
+  }
+  
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -231,6 +398,10 @@ font-family: sans-serif;
 .card{
     border: 2px solid black;
     width: calc(100% / 4 - 20px);
+    transition: border-color 0.3s ease;
+}
+.card:hover{
+    border-color: #ff0000;
 }
 .card h2{
     font-size: 24px;
@@ -275,8 +446,13 @@ font-family: sans-serif;
   line-height: 1.4;
 }
 .aure{
-    background-color: #d4742c;
+    background-color: #FFCCCC;
     display: flex;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+}
+.aure:hover{
+    background-color: #ff0000;
 }
 .feel{
     margin-top: 100px;
@@ -425,6 +601,7 @@ hr{
     width: 80px;
     height: 80px;
 }
+
 @keyframes moving{
     0%{
         left: -20px;
