@@ -6,7 +6,8 @@
 /* additional code for home page */
 .details {
     /* background-color: #FFCCB3 */
-    background-color: #F7C1BB
+    /* background-color: #F7C1BB */
+    background-color: #FFA089
 
     ;
     padding: 50px;
@@ -82,7 +83,8 @@
   /* the end of that code */
 body{
     /* margin: 0 100px; */
-    background-color: #ffeae0;
+    /* background-color: #ffeae0; */
+    background-color: #FFFDD0;
 }
 .navli{
     margin: 0 100px;
@@ -206,30 +208,80 @@ font-family: sans-serif;
     height: 400px;
     background-color: #f2f2f2;
 }
-.img-box {
-    width: 400px;
-    height: 400px;
-    margin: 20px;
-    animation: bounce 1s infinite alternate;
+/* Styling the section */
+.bisco {
+    text-align: center;
+    padding: 40px 0;
 }
+
+/* Styling the heading */
+.Discover {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+/* Styling the image boxes */
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.img-box:hover {
+    transform: scale(1.1);
+}
+
 .img-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.Discover{
-    margin-left: 45%;
-    font-size: 60px;
+
+/* Styling the buttons overlay */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
-   
-.img-box button{
-    padding: 20px 23px;
-    background-color: #ff511c;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer; 
+.img-box:hover .overlay {
+    opacity: 1;
 }
+
+/* Styling the buttons */
+.img-box button {
+    padding: 15px 20px;
+    background-color: #ff511c;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.img-box button:hover {
+    background-color: #ff763d;
+}
+
 .Gallery{
     margin-left: 40%;
     margin-top: 10%;
@@ -380,7 +432,7 @@ h2:hover{
   }
   
   #mage3:hover {
-    content: url("images/ore1.jpg");
+    content: url("images/dress\ twi.jpg");
   }
   
   .trend1:hover,
@@ -389,61 +441,80 @@ h2:hover{
     transform: scale(1.05);
   }
   
-.cards{
+/* Add a common style for both .cards and .cards2 */
+.cards, .cards2 {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     justify-content: space-between;
+    gap: 20px; /* Add a gap between cards */
 }
-.card{
-    border: 2px solid black;
-    width: calc(100% / 4 - 20px);
-    transition: border-color 0.3s ease;
-}
-.card:hover{
-    border-color: #ff0000;
-}
-.card h2{
-    font-size: 24px;
-    color: blue;
 
+/* Update style for .card and .card1 */
+.card {
+    border: 2px solid #ddd; /* Add a subtle border */
+    width: calc(100% / 4 - 40px); /* Adjust width and spacing */
+    height: 450px; /* Set a fixed height for .card */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer; /* Show pointer on hover */
 }
-.card p{
+
+.card1 {
+    border: 2px solid #ddd; /* Add a subtle border */
+    width: calc(100% / 4 - 40px); /* Adjust width and spacing */
+    height: 400px; /* Set a different fixed height for .card1 */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer; /* Show pointer on hover */
+}
+
+
+/* On hover, add a slight scale effect and change border color */
+.card:hover, .card1:hover {
+    border-color: #ff0000;
+    transform: scale(1.05);
+}
+
+/* Update style for .card h2 and .card1 h2 */
+.card h2, .card1 h2 {
+    font-size: 24px;
+    color: #333; /* Darken text color */
+    margin-bottom: 10px; /* Add spacing between heading and price */
+}
+
+/* Update style for .card p and .card1 p */
+.card p, .card1 p {
     font-size: 20px;
-  line-height: 1.4;
+    line-height: 1.4;
+    color: #777; /* Dim the price color */
 }
-.card img{
+
+/* Update style for .card img and .card1 img */
+.card img, .card1 img {
     width: 100%;
-    height: 400px;
+    height: 300px; /* Reduce image height for consistency */
     object-fit: cover;
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
 }
+
+/* Add a unique class for the header "New Designs Available" */
+.desire {
+    font-size: 36px;
+    color: #ff0000; /* Redesign the header color */
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Add some spacing between the cards and the header */
+.new {
+    padding: 0 20px;
+}
+
 .puta{
     margin-top: -10%;
     font-size: 30px;
-}
-.cards2{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-between;
-}
-.card1{
-    border: 2px solid black;
-    width: calc(100% / 4 - 20px);
-}
-.card1 img{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-.card1 h2{
-    font-size: 24px;
-    color: blue;
-
-}
-.card1 p{
-    font-size: 20px;
-  line-height: 1.4;
 }
 .aure{
     background-color: #FFCCCC;
