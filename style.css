@@ -288,6 +288,14 @@ font-family: sans-serif;
     font-size: 60px;
     margin: 0 100px;
 }
+#cbc ,#pillow {
+    width: 100%;
+    height: 80%;
+}
+#warape{
+    width: 100%;
+    height: 100%;  
+}
 h2{
     color: #000;
     transition: color 0.3s ease;
@@ -380,13 +388,16 @@ h2:hover{
     content: url("images/ore1.jpg");
 } */
 .trendy {
-    margin: 0 100px;
+    margin: 50px 100px;
+    background-color: #f9f9f9;
+    padding: 30px;
+  border-radius: 15px;
   }
   
   .trend {
     display: flex;
     margin: 0 100px;
-    gap: 5%;
+    gap: 50px;
   }
   
   .desire {
@@ -396,8 +407,11 @@ h2:hover{
   }
   
   .head-kara {
-    margin-left: 40%;
-    font-size: 50px;
+    /* margin-left: 40%;
+    font-size: 50px; */
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
   }
   
   #mage1,
@@ -494,7 +508,7 @@ h2:hover{
 /* Update style for .card img and .card1 img */
 .card img, .card1 img {
     width: 100%;
-    height: 300px; /* Reduce image height for consistency */
+    height: 350px; /* Reduce image height for consistency */
     object-fit: cover;
     border-radius: 10px 10px 0 0; /* Rounded top corners */
 }
@@ -710,3 +724,67 @@ hr{
         transform: translateY(-20px);
     }
 }
+/* For screens smaller than 768px (e.g., smartphones) */
+@media only screen and (max-width: 767px) {
+    body {
+      margin: 0; /* Remove margin to make full width */
+    }
+    .navli, .details, .bisco, .new, .Gallery, .trendy, .fin {
+      margin: 0 20px; /* Reduce margins to adjust content */
+    }
+    .logo-container {
+      width: 100px;
+      height: 100px;
+    }
+    #grr {
+      margin-top: 0; /* Adjust the logo position */
+    }
+    .nav .logo h1 {
+      font-size: 24px;
+    }
+    .nav ul li a {
+      font-size: 14px;
+    }
+    .details .info h2 {
+      font-size: 28px;
+      margin-bottom: 50px;
+    }
+    .content .content-left .info p {
+      font-size: 14px;
+    }
+    .content .content-left button {
+      padding: 10px 15px;
+    }
+    .Gallery h1.gallery {
+      font-size: 40px;
+      margin-left: 20%;
+      margin-top: 5%;
+    }
+    #fullImg span {
+      font-size: 20px;
+    }
+    .trendee h3 {
+      font-size: 18px;
+    }
+    .trendee p {
+      font-size: 12px;
+    }
+    .new .desire {
+      font-size: 24px;
+    }
+    .footer .rowie {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer .foo,
+    .footer .foo1 {
+      text-align: center;
+    }
+    .footer .foo1 h3 {
+      margin-bottom: 20px;
+    }
+    .footer .foo1 h4 {
+      font-size: 18px;
+    }
+  }
+  
